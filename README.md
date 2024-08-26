@@ -31,7 +31,7 @@ docker compose up --build
 Isso iniciará o ClickHouse e o MinIO, preparando o ambiente para armazenar e processar os dados da API.
 
 ##### 3. Instalar as dependências
-Com o Docker configurado, você precisará instalar as dependências do projeto. Nesse caso, isso é feito utilizando o Poetry:
+Com o Docker configurado, você precisará instalar as dependências do projeto. Abra outro terminal e utilize o Poetry através desse comando:
 ```bash
 poetry install
 ```
